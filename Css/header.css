@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%, auto;
+    min-height: 5em;
+    padding: 0 1em;
+    text-shadow: 5px 5px 9px;
+    box-shadow: black 0px -4px 25px;
+    border-radius: 20px;
+}
+.header .h1 {
+    font-size: 1.5rem;
+}
+.header .ul {
+    display: flex;
+}
+.header .ul .li {
+    margin: .5em;
+}
+.header .a {
+    font-weight: 1000;
+    transition: all ease-in-out .3s;
+}

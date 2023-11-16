@@ -1,0 +1,56 @@
+@media only screen and (max-width: 600px){
+    .header, #cursor, .articulo:hover .h4 , svg:hover{
+        display: none;
+    }
+    .proyectos {
+        padding: 2em 0 0;
+    }
+    .proyectos .p{
+        padding: 0 2em;
+    }
+    .main .seccion .grid {
+        width: 60%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .main .seccion .grid .articulo { 
+        width: 60%;
+        max-height: 50vh;
+        margin: 2em 0;
+        position: relative;
+    
+        border-radius: 5%;
+        overflow: hidden;
+        box-shadow: black 8px 8px 8px;}
+
+    .proyectos .h4 {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(19, 18, 18, 0.39);
+        font-size: 1.5rem;
+        font-style: italic;
+        
+        opacity: 1;
+        
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+    #cursor, .articulo:hover .h4 , .svg:hover{
+        display: none;
+    }
+    .articulo {
+        margin: 1em;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1250px) {
+    
+}

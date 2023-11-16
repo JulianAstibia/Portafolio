@@ -1,0 +1,21 @@
+#cursor {
+    position: fixed;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-top: 5px solid violet;
+    border-bottom: 5px solid lightgreen;
+    border-radius: 50%;
+    background-color: hsla(0, 0%, 0%, 0.39);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    animation:cursorsito 4s linear infinite both;
+
+    z-index: 100;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+@keyframes cursorsito {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg)}
+}

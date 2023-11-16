@@ -1,0 +1,64 @@
+.proyectos, .footer {
+    background-color: rgba(0, 0, 0, 0.506);
+    box-shadow: 0 10px 10px 30px rgba(0, 0, 0, 0.506);
+}
+.main .proyectos .p {
+    font-size: 1.3rem;
+    margin: 1em 0;
+}
+.main .seccion .grid {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem , 1fr));
+    gap: 0 1em;
+    justify-items: center;
+}
+.main .seccion .grid .articulo { 
+    width: 60%;
+    max-height: 50vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: black 8px 8px 8px;
+   
+}
+.main .articulo .figura {
+    width: 100%;
+    height: auto;
+}
+
+.main .grid .img {
+    width: 100%;
+    height: auto;
+}
+.proyectos .h4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 18, 18, 0.39);
+    font-size: 1.2em;
+    font-style: italic;
+    
+    opacity: 0;
+    transition: all ease .5s;
+    transform: translateZ(1) scale(1.2);
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.proyectos .articulo:hover .h4 {
+    opacity: 1;
+    transform: scale(1.2);
+    backdrop-filter: blur(10px);
+    border-radius: 5%;
+}

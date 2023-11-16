@@ -1,0 +1,109 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url(fondo.css);
+@import url(proyectos.css);
+@import url(header.css);
+@import url(cursor.css);
+@import url(responsive.css);
+
+html {
+    scroll-behavior: smooth;
+    cursor: none;
+}
+body {
+    font-family: 'alice', Arial, Helvetica, sans-serif;
+    text-align: center;
+    min-height: 100vh;
+    color: rgb(255, 255, 255);
+}
+a {
+    text-decoration-line: none;
+    color: rgb(255, 255, 255);
+    cursor: none;
+}
+
+.main {
+    margin: 1em 0;
+}
+.main .seccion {
+    min-height: 100vh;
+    margin: 1em 0;
+    animation: hola 2s linear;
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;  
+}
+.main .seccion .h2 {
+    font-size: 3rem;
+    text-shadow: 5px 5px 9px;
+}
+.main .inicio .h3 {
+    margin: .5em 0;
+    font-size: 2rem;
+}
+.main .inicio {
+    text-shadow: 5px 5px 9px;
+}
+.inicio .ul {
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.inicio .li {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 1em;
+}
+
+.sobre-mi .p {
+    margin: 0.5em;
+    text-align: left;
+}
+.main .sobre-mi .rrss {
+    width: 90%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.main .rrss .li {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 1rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em 0;
+}
+.footer .span {
+    font-size: 1rem;
+}
+
+/*algunos efectos*/
+
+@keyframes hola {
+    from{opacity: 0;
+        transform:translateY(5%)}
+        to{opacity: 1;
+            transform:translateY(0%)}
+        }
+        .svg {
+    transform: scale(1);
+    transition: ease-out 2s;
+}
+.svg:hover{
+    transform: scale(1.3);
+    transition: ease-out 2s;
+}
+
+/* -----No usados aún------
+
+.main .proyectos {}
+.main .rrss .svg {}
+.main .rrss .li .a {}
+*/
