@@ -7,7 +7,7 @@
     border-radius: 50%;
     background-color: hsla(0, 0%, 0%, 0.39);
     box-shadow: 0 0 10px rgb(0, 0, 0);
-    animation:cursorsito 4s linear infinite both;
+    animation:cursorsito 10s linear infinite both;
 
     z-index: 100;
     top: 0;
