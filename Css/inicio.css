@@ -1,0 +1,19 @@
+.main .inicio .h3 {
+    margin: .5em 0;
+    font-size: 2rem;
+}
+.main .inicio {
+    text-shadow: 5px 5px 9px;
+}
+.inicio .ul {
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.inicio .li {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 1em;
+}

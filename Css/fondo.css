@@ -13,7 +13,7 @@
     position: absolute;
     width: 50%;
     height: 50%;
-    animation: circulo1 50s linear infinite both;
+    animation: circulo1 120s linear infinite both;
 }
 .centro {
     width: 30%;
@@ -25,6 +25,7 @@
     top: 0%;
     left: 0%;
 }
+
 @keyframes circulo1{
 from {transform: rotate(0deg) scale(3);}
 to {transform: rotate(360deg) scale(3);}
@@ -35,7 +36,7 @@ to {transform: rotate(360deg) scale(3);}
     right: 0%;
 }
 .circulo3 {
-    fill: aqua;
+    fill: rgb(91, 229, 229);
    bottom: 0%;
     left: 0%;
 }

@@ -1,0 +1,9 @@
+.sobre-mi .h2 {
+    padding: .5em;
+ }
+.sobre-mi .p {
+    margin: 0.5em;
+    text-align: left;
+    font-size: x-large;
+    width: 70%;
+}

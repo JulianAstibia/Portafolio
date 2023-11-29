@@ -1,14 +1,21 @@
 .header{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
     
-    width: 100%, auto;
+    top: 0;
+    width: auto;
     min-height: 5em;
     padding: 0 1em;
     text-shadow: 5px 5px 9px;
     box-shadow: black 0px -4px 25px;
     border-radius: 20px;
+
+    animation: mejorar-header linear both;
+    animation-timeline: scroll(root);
+    animation-range-end: 50%;
+    
 }
 .header .h1 {
     font-size: 1.5rem;
@@ -22,4 +29,16 @@
 .header .a {
     font-weight: 1000;
     transition: all ease-in-out .3s;
+}
+
+
+@keyframes mejorar-header {
+    to{
+        background-color: rgba(214, 214, 214, 0.122);
+        backdrop-filter: blur(5px);
+        font-size: 1rem;
+        min-height: 3.5em;
+        z-index: 90;
+    }
+    
 }
